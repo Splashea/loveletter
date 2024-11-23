@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        body {
+            background-color: #fef6e4;
+            color: #4b3832;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .letter-container {
+            background: linear-gradient(to bottom right, #fde2e4, #fad2e1);
+            padding: 20px 30px;
+            border: 3px solid #ff6f61;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            text-align: justify;
+        }
+        .signature {
+            text-align: right;
+            margin-top: 20px;
+            font-style: italic;
+        }
+        .heart {
+            color: #e63946;
+            font-size: 1.5rem;
+        }
+        a {
+            color: #e63946;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="letter-container">
+        <h1 style="text-align: center;">Adek Vania Comel,</h1>
+        <p>
+            Dari pertama bertemu Adek, aku sudah tau bahwa kita are made each other, that you are my zing, senyumanmu yang manis mengingatkanku akan rembulan di malam hari dan sejuknya udara di minggu pagi, engkaulah hal yang paling dinanti untuk besar bersama nanti.
+        </p>
+        <p>
+            Iya adek the love of my life, i love your eyes, your giggles, your hair short or long it doesn't matter, cuz i love you no matter what you looked like, i just think im glad im staying up late that day playing leomatch to find someone as gorgeous and kind as you, hats off to leomatch.
+        </p>
+        <p>
+            I love you, cuz u didn't give up on me, you always giving me a second chance, i adore you so much and don't give up on me okay?.
+        </p>
+        <p>
+            Kalau misal aku bisa menuangkan perasaanku ke coding, mungkin akan terlihat seperti ini:
+        </p>
+        <pre>
+function loveYou() {
+    while (true) {
+        console.log('I love you');
+    }
+}
+        </pre>
+        <p>
+            Meskipun begitu Surat ini bukanlah apa apa dibandingkan rasa sayangku ke Adek. You are my <span class="heart">&#10084;</span>, my Lily, my Sweetiepie.
+        </p>
+        <p class="signature">
+            Forever yours,<br>
+            <span class="heart">&#10084;</span> Thomas
+        </p>
+        <p style="text-align: center;">
+            <a href="#" onclick="alert('I love you moreee!')">Click here if you love me!</a>
+        </p>
+    </div>
+</body>
+</html>
